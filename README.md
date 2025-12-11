@@ -94,6 +94,8 @@ Powerful telegram bot that scrape Posters from multiple OTT platforms & Bypass d
 - **`BOT_TOKEN`** - Get this from [@BotFather](https://t.me/BotFather)
 - **`DATABASE_URL`** - MongoDB database URL
 - **`OWNER_ID`** - Your Telegram user ID
+  - **`UPSTREAM_REPO`** - Your forked repository URL for autu update
+- **`UPSTREAM_BRANCH`** - Repository branch name 
 
 ### Optional Variables
 
@@ -106,8 +108,6 @@ Powerful telegram bot that scrape Posters from multiple OTT platforms & Bypass d
 - **`PUBLIC_MODE`** - Set to `True` for public access, `False` for private use only
 - **`TIMEZONE`** - Timezone for the bot 
 - **`TMDB_ACCESS_TOKEN`** - TMDB API token (optional, uses proxy if not set)
-- **`UPSTREAM_REPO`** - Your forked repository URL for autu update
-- **`UPSTREAM_BRANCH`** - Repository branch name 
 - **`OTT_TEMPLATE`** - Format for OTT platform poster results
 - **`IMDB_TEMPLATE`** - Format for IMDb search results
 - **`BYPASS_TEMPLATE`** - Format for bypass link results
@@ -162,6 +162,8 @@ Before starting, ensure you have:
    BOT_TOKEN=your_bot_token
    DATABASE_URL=your_mongodb_url
    OWNER_ID=your_telegram_user_id
+   UPSTREAM_REPO=https://github.com/XalFH/Poster-Scraper-Bot
+   UPSTREAM_BRANCH=main
    ```
    
    Save and exit (`Ctrl + X`, then `Y`, then `Enter`)
@@ -234,6 +236,8 @@ docker-compose down -v
    BOT_TOKEN=your_bot_token
    DATABASE_URL=your_database_url
    OWNER_ID=your_owner_id
+   UPSTREAM_REPO=https://github.com/XalFH/Poster-Scraper-Bot
+   UPSTREAM_BRANCH=main
    ```
 
 4. **Commit Changes**

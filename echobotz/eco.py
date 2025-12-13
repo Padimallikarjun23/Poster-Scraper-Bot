@@ -24,6 +24,7 @@ class echo(object):
 /extralink - Bypass ExtraLink links to direct links  
 /luxdrive - Bypass LuxDrive links to direct links  
 /nexdrive - Bypass NexDrive links to direct links
+/hblinks -Bypass HBLinks to direct links
 /prime - Prime Video poster  
 /zee5 - ZEE5 poster  
 /appletv - Apple TV+ poster  

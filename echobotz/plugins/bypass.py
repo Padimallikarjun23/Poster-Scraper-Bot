@@ -30,6 +30,7 @@ def _sexy(name):
         "luxdrive": "LuxDrive",
         "nexdrive": "NexDrive",
         "hblinks": "HBLinks",
+        "vegamovies": "Vegamovies",
     }
     return mapping.get(name, name.title())
 

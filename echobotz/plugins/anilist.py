@@ -291,7 +291,7 @@ async def _anime_cb(client, query):
         target_msg = message.reply_to_message or message
 
         try:
-            await EchoBot.send_photo(
+            await EchoBot.bot.send_photo(
                 chat_id=target_msg.chat.id,
                 photo=cover,
                 caption=cap,

@@ -291,7 +291,7 @@ async def _bp_info(cmd_name, target_url):
                 requests.post,
                 api_url,
                 json={"url": target_url},
-                timeout=,30,
+                timeout=30,
             )
         else:
             resp = await _sync_to_async(

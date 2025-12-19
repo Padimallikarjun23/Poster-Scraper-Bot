@@ -109,9 +109,9 @@ def _pack_results_html(results, page=1, per_page=10):
             out.append(f'   ╞ <b>{typ}</b>: <a href="{url}">Click Here</a>')
         out.append("")
     txt = "\n".join(out).strip()
-    nav = f"<i>Showing {start+1}-{end} of {total} files</i>"
+    nav = f"<b>Page: {page}/{max_page}</b> | <b>Total Files: {total}</b>"
     return (txt, nav, page, max_page)
-
+    
 def _bp_links(links):
     if not isinstance(links, dict) or not links:
         return "╰╴ No direct links found."

@@ -5,10 +5,10 @@ load_dotenv("../config.env", override=True)
 load_dotenv("config.env", override=True) 
 
 class Config:
-    API_ID = int(os.environ.get("API_ID", 0))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    API_ID = int(os.environ.get("22262560", 0))
+    API_HASH = os.environ.get("73eeccd990484d0c87a90756aae9fa21", "")
+    BOT_TOKEN = os.environ.get("8564030848:AAEcimVf5RpXv5kcc5_oTuHILC5lZI7KI30", "")
+    DATABASE_URL = os.environ.get("MONGO_URL = mongodb+srv://Malli4u:Malli4u@malli4u.epa1fhz.mongodb.net/?appName=Malli4u", "")
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "ebotz")
     OWNER_ID = int(os.environ.get("OWNER_ID", 0))
     SUDO_USERS = (
